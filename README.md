@@ -69,10 +69,13 @@ This project is built around a few non-negotiable ideas:
 - convenience features must not become hidden control dependencies
 - protocols must be chosen by role, not by trend
 - architecture should expand in small validated steps
+- documentation must be updated with every meaningful change
 
 In short:
 
 **the house must still work when the dashboard does not**
+
+Documentation discipline is part of this doctrine: implementation, validation, and operational behavior changes are not complete until the corresponding docs are updated.
 
 ---
 
@@ -122,3 +125,14 @@ It currently defines:
 It does not yet claim to be a full implementation repository.
 
 That separation is intentional and helps keep future implementation increments controlled, testable, and resilient by design.
+
+## Functional Progress Note
+
+The repository now also includes a documented and tested WSL instance-cloning lifecycle as an operational baseline for future simulation work:
+
+1. Start a fresh source instance.
+2. Create an image/export copy with a proper target name.
+3. Remove the original source instance/image.
+4. Start only the newly copied instance.
+
+This does not replace the queued architecture task. It confirms the core clone workflow is already functional and can be treated as a validated building block for the upcoming WSL simulation orchestration plan.

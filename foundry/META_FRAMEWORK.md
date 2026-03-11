@@ -66,3 +66,7 @@ An increment is complete only when:
 - Documentation and message model are updated.
 - Validation evidence exists for success and failure scenarios.
 - Deployment/rollback considerations are documented.
+
+## Documentation Update Rule
+- Documentation updates are mandatory for every meaningful architecture, behavior, interface, validation, or operational workflow change.
+- Code or process changes are considered incomplete until related docs are updated in the same increment.

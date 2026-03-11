@@ -8,6 +8,11 @@ Priority: `high`
 Created: `2026-03-11`
 Type: `architecture/implementation plan (no full code yet)`
 
+#### Functional status note
+- The mandatory clone lifecycle has been functionally validated on `2026-03-11` using temporary test instances.
+- Validated sequence: start source instance -> export/copy with proper name -> remove source instance -> start copied instance.
+- This task remains queued because the full multi-layer architecture and tooling plan is still pending.
+
 #### Copilot Instruction
 Plan a WSL-based development architecture that supports both:
 
