@@ -1,5 +1,13 @@
 # Resilient Embedded House-Control Foundry
 
+## Public source status
+
+This repository is a design foundation and collection of architecture templates.
+It is evidence of documented engineering methods, not a completed firmware or
+hardware implementation. The WSL progress note below is a historical project
+note; this repository does not contain an independently reproducible WSL
+acceptance record.
+
 A markdown-first Foundry for designing, governing, and growing a resilient embedded house-control platform based on a deterministic CAN backbone, distributed ESP32 nodes, optional local wireless edge access, and service layers that must never become hidden dependencies for core operation.
 
 This repository does **not** begin by building the final full system.
@@ -136,3 +144,7 @@ The repository now also includes a documented and tested WSL instance-cloning li
 4. Start only the newly copied instance.
 
 This does not replace the queued architecture task. It confirms the core clone workflow is already functional and can be treated as a validated building block for the upcoming WSL simulation orchestration plan.
+
+## License
+
+Copyright © 2026 Finn André Hotvedt. Licensed under the [MIT License](LICENSE).
